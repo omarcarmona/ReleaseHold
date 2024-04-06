@@ -1,0 +1,702 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "01.00.0002",
+        "title": "IN_CCOSTOS_ADMIN_DISTRIBU",
+        "x-vb": {
+            "serviceType": "ics"
+        }
+    },
+    "servers": [
+        {
+            "url": "vb-catalog://backends/ics/ic/api/integration/v1/flows/rest"
+        }
+    ],
+    "paths": {
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/createDistribution": {
+        },
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/getCostsDistributions": {
+        },
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/getDistributionDetail": {
+        },
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/getGLResults": {
+        },
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/getResultsFile": {
+        },
+        "/IN_CCOSTOS_ADMIN_DISTRIBU/1.0/getWoResults": {
+        },
+        "/CONSUL_ORDENE_HOLD_FACTUR_VENCID/1.0/getOrdenesHold/{unidadNegocio}": {
+            "get": {
+                "tags": [
+                    "CUSTOM.RELEASE_HOLD/CONSUL_ORDENE_HOLD_FACTUR_VENCID|01.00.0000",
+                    "CUSTOM.RELEASE_HOLD"
+                ],
+                "operationId": "getCONSUL_ORDENE_HOLD_FACTUR_VENCID1_0GetOrdenesHoldUnidadNegocio",
+                "parameters": [
+                    {
+                        "name": "unidadNegocio",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "500": {
+                        "description": "Faults",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/APIInvocationError-1"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "A sample description of the Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/GetCONSUL_ORDENE_HOLD_FACTUR_VENCID1_0GetOrdenesHoldUnidadNegocio"
+                                },
+                                "examples": {
+                                    "vb": {
+                                        "summary": "Example stored by VB User",
+                                        "externalValue": "./examples/getCONSUL_ORDENE_HOLD_FACTUR_VENCID1_0GetOrdenesHoldUnidadNegocio/response_default_application_json_vb.json"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2Authentication": []
+                    },
+                    {
+                        "basicAuthentication": []
+                    }
+                ]
+            }
+        },
+        "/OUT_LIBERA_ORDENE_FACTUR_VENCID/1.0/liberarOrdenesFacturaVencida": {
+            "post": {
+                "tags": [
+                    "CUSTOM.RELEASE_HOLD/OUT_LIBERA_ORDENE_FACTUR_VENCID|01.00.0000",
+                    "CUSTOM.RELEASE_HOLD"
+                ],
+                "operationId": "postOUT_LIBERA_ORDENE_FACTUR_VENCID1_0LiberarOrdenesFacturaVencida",
+                "parameters": [],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/request-wrapper"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "responses": {
+                    "204": {
+                        "description": "No content defined for this response"
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2Authentication": []
+                    },
+                    {
+                        "basicAuthentication": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "createDistribution-request-wrapper": {
+                "type": "object",
+                "required": [
+                    "CreatedBy",
+                    "IdCompany",
+                    "Month",
+                    "Year"
+                ],
+                "properties": {
+                    "IdCompany": {
+                        "type": "number"
+                    },
+                    "Month": {
+                        "type": "number"
+                    },
+                    "Year": {
+                        "type": "number"
+                    },
+                    "CreatedBy": {
+                        "type": "string"
+                    }
+                }
+            },
+            "APIInvocationError": {
+                "type": "object",
+                "required": [
+                    "detail",
+                    "errorCode",
+                    "errorDetails",
+                    "title",
+                    "type"
+                ],
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "detail": {
+                        "type": "string"
+                    },
+                    "errorCode": {
+                        "type": "string"
+                    },
+                    "errorDetails": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string"
+                                },
+                                "instance": {
+                                    "type": "string"
+                                },
+                                "title": {
+                                    "type": "string"
+                                },
+                                "errorPath": {
+                                    "type": "string"
+                                },
+                                "errorCode": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "errorCode",
+                                "errorPath",
+                                "instance",
+                                "title",
+                                "type"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                }
+            },
+            "createDistribution-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "IdDist",
+                    "code",
+                    "message"
+                ],
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "IdDist": {
+                        "type": "number"
+                    }
+                }
+            },
+            "getDistributions-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "distribuciones",
+                    "resultCode",
+                    "resultMessage"
+                ],
+                "properties": {
+                    "resultCode": {
+                        "type": "number"
+                    },
+                    "resultMessage": {
+                        "type": "string"
+                    },
+                    "distribuciones": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "IdDist": {
+                                    "type": "number"
+                                },
+                                "Month": {
+                                    "type": "number"
+                                },
+                                "Year": {
+                                    "type": "number"
+                                },
+                                "IdCompany": {
+                                    "type": "number"
+                                },
+                                "Status": {
+                                    "type": "string"
+                                },
+                                "StatusText": {
+                                    "type": "string"
+                                },
+                                "CreationDate": {
+                                    "type": "string"
+                                },
+                                "CreatedBy": {
+                                    "type": "string"
+                                },
+                                "LastUpdateDate": {
+                                    "type": "string"
+                                },
+                                "LastUpdateBy": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "CreatedBy",
+                                "CreationDate",
+                                "IdCompany",
+                                "IdDist",
+                                "LastUpdateBy",
+                                "LastUpdateDate",
+                                "Month",
+                                "Status",
+                                "StatusText",
+                                "Year"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                }
+            },
+            "getDistributionDetail-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "Code",
+                    "DistDetail",
+                    "Message"
+                ],
+                "properties": {
+                    "Code": {
+                        "type": "string"
+                    },
+                    "Message": {
+                        "type": "string"
+                    },
+                    "DistDetail": {
+                        "type": "object",
+                        "properties": {
+                            "IdDist": {
+                                "type": "number"
+                            },
+                            "Month": {
+                                "type": "number"
+                            },
+                            "Year": {
+                                "type": "number"
+                            },
+                            "IdCompany": {
+                                "type": "number"
+                            },
+                            "Status": {
+                                "type": "string"
+                            },
+                            "StatusText": {
+                                "type": "string"
+                            },
+                            "Gl": {
+                                "type": "object",
+                                "properties": {
+                                    "Status": {
+                                        "type": "string"
+                                    },
+                                    "StatusText": {
+                                        "type": "string"
+                                    },
+                                    "InitialDate": {
+                                        "type": "string"
+                                    },
+                                    "FinalDate": {
+                                        "type": "string"
+                                    },
+                                    "CreatedBy": {
+                                        "type": "string"
+                                    },
+                                    "RecordsAmount": {
+                                        "type": "number"
+                                    }
+                                }
+                            },
+                            "Wo": {
+                                "type": "object",
+                                "properties": {
+                                    "Status": {
+                                        "type": "string"
+                                    },
+                                    "StatusText": {
+                                        "type": "string"
+                                    },
+                                    "InitialDate": {
+                                        "type": "string"
+                                    },
+                                    "FinalDate": {
+                                        "type": "string"
+                                    },
+                                    "CreatedBy": {
+                                        "type": "string"
+                                    },
+                                    "RecordsAmount": {
+                                        "type": "number"
+                                    }
+                                }
+                            },
+                            "Calculation": {
+                                "type": "object",
+                                "properties": {
+                                    "Status": {
+                                        "type": "string"
+                                    },
+                                    "StatusText": {
+                                        "type": "string"
+                                    },
+                                    "InitialDate": {
+                                        "type": "string"
+                                    },
+                                    "FinalDate": {
+                                        "type": "string"
+                                    },
+                                    "CreatedBy": {
+                                        "type": "string"
+                                    },
+                                    "RecordsAmount": {
+                                        "type": "number"
+                                    }
+                                }
+                            },
+                            "ResourceSend": {
+                                "type": "object",
+                                "properties": {
+                                    "Status": {
+                                        "type": "string"
+                                    },
+                                    "StatusText": {
+                                        "type": "string"
+                                    },
+                                    "InitialDate": {
+                                        "type": "string"
+                                    },
+                                    "FinalDate": {
+                                        "type": "string"
+                                    },
+                                    "CreatedBy": {
+                                        "type": "string"
+                                    },
+                                    "RecordsAmount": {
+                                        "type": "number"
+                                    },
+                                    "JobId": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "getGLResults-request-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    }
+                }
+            },
+            "getGLResults-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "Error",
+                    "Mensaje",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    },
+                    "Error": {
+                        "type": "string"
+                    },
+                    "Mensaje": {
+                        "type": "string"
+                    }
+                }
+            },
+            "getResultsFile-request-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    }
+                }
+            },
+            "getResultsFile-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "Error",
+                    "Mensaje",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    },
+                    "Error": {
+                        "type": "string"
+                    },
+                    "Mensaje": {
+                        "type": "string"
+                    }
+                }
+            },
+            "getWOResults-request-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    }
+                }
+            },
+            "getWOResults-response-wrapper": {
+                "type": "object",
+                "required": [
+                    "DistrId",
+                    "Error",
+                    "Mensaje",
+                    "User"
+                ],
+                "properties": {
+                    "DistrId": {
+                        "type": "string"
+                    },
+                    "User": {
+                        "type": "string"
+                    },
+                    "Error": {
+                        "type": "string"
+                    },
+                    "Mensaje": {
+                        "type": "string"
+                    }
+                }
+            },
+            "APIInvocationError-1": {
+                "type": "object",
+                "required": [
+                    "detail",
+                    "errorCode",
+                    "errorDetails",
+                    "title",
+                    "type"
+                ],
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "detail": {
+                        "type": "string"
+                    },
+                    "errorCode": {
+                        "type": "string"
+                    },
+                    "errorDetails": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string"
+                                },
+                                "instance": {
+                                    "type": "string"
+                                },
+                                "title": {
+                                    "type": "string"
+                                },
+                                "errorPath": {
+                                    "type": "string"
+                                },
+                                "errorCode": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "errorCode",
+                                "errorPath",
+                                "instance",
+                                "title",
+                                "type"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                }
+            },
+            "response-wrapper": {
+                "type": "object",
+                "required": [
+                    "OrdenesEnHold"
+                ],
+                "properties": {
+                    "OrdenesEnHold": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "Order": {
+                                    "type": "string"
+                                },
+                                "OrderedDate": {
+                                    "type": "string"
+                                },
+                                "ExceptionType": {
+                                    "type": "string"
+                                },
+                                "OrderType": {
+                                    "type": "string"
+                                },
+                                "Customer": {
+                                    "type": "string"
+                                },
+                                "Total": {
+                                    "type": "string"
+                                },
+                                "Comments": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "Comments",
+                                "Customer",
+                                "ExceptionType",
+                                "Order",
+                                "OrderType",
+                                "OrderedDate",
+                                "Total"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                }
+            },
+            "request-wrapper": {
+                "type": "object",
+                "required": [
+                    "correoNotificacion",
+                    "ordenes"
+                ],
+                "properties": {
+                    "correoNotificacion": {
+                        "type": "string"
+                    },
+                    "ordenes": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "numeroOrden": {
+                                    "type": "string"
+                                },
+                                "sourceOrderNumber": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "numeroOrden"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                }
+            },
+            "GetCONSUL_ORDENE_HOLD_FACTUR_VENCID1_0GetOrdenesHoldUnidadNegocio": {
+                "type": "object",
+                "properties": {
+                    "OrdenesEnHold": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "Order": {
+                                    "type": "string"
+                                },
+                                "sourceOrderNumber": {
+                                    "type": "string"
+                                },
+                                "OrderedDate": {
+                                    "type": "string"
+                                },
+                                "ExceptionType": {
+                                    "type": "string"
+                                },
+                                "OrderType": {
+                                    "type": "string"
+                                },
+                                "Customer": {
+                                    "type": "string"
+                                },
+                                "Total": {
+                                    "type": "string"
+                                },
+                                "Comments": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

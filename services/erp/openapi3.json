@@ -1,0 +1,189 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "11.13.18.05",
+        "title": "Enterprise Resource Planning and Supply Chain",
+        "x-vb": {
+            "serviceType": "adf-describe",
+            "transforms": {
+                "path": "vb/BusinessObjectsTransforms"
+            }
+        }
+    },
+    "servers": [
+        {
+            "url": "vb-catalog://backends/fscmRestApi/11.13.18.05"
+        }
+    ],
+    "tags": [
+        {
+            "name": "finBusinessUnitsLOV"
+        }
+    ],
+    "paths": {
+        "/finBusinessUnitsLOV": {
+            "get": {
+                "tags": [
+                    "finBusinessUnitsLOV"
+                ],
+                "summary": "Obtener todo",
+                "operationId": "getall_finBusinessUnitsLOV",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/expand"
+                    },
+                    {
+                        "$ref": "#/components/parameters/fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/onlyData"
+                    },
+                    {
+                        "$ref": "#/components/parameters/links"
+                    },
+                    {
+                        "$ref": "#/components/parameters/limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/totalResults"
+                    },
+                    {
+                        "$ref": "#/components/parameters/q"
+                    },
+                    {
+                        "$ref": "#/components/parameters/orderBy"
+                    },
+                    {
+                        "$ref": "vb-catalog://backends/fscmRestApi/11.13.18.05/describe?partialDescriptionForCatalogOpenAPI=finBusinessUnitsLOV#/components/parameters/finBusinessUnitsLOV-finder"
+                    },
+                    {
+                        "$ref": "#/components/parameters/effectiveDate"
+                    },
+                    {
+                        "$ref": "#/components/parameters/REST-Framework-Version"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Metadata-Context"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Effective-Of"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "vb-catalog://backends/fscmRestApi/11.13.18.05/describe?partialDescriptionForCatalogOpenAPI=finBusinessUnitsLOV#/components/responses/finBusinessUnitsLOV-collection-response"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "parameters": {
+            "expand": {
+                "name": "expand",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "fields": {
+                "name": "fields",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "onlyData": {
+                "name": "onlyData",
+                "in": "query",
+                "schema": {
+                    "type": "boolean"
+                }
+            },
+            "links": {
+                "name": "links",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "limit": {
+                "name": "limit",
+                "in": "query",
+                "schema": {
+                    "type": "integer"
+                }
+            },
+            "offset": {
+                "name": "offset",
+                "in": "query",
+                "schema": {
+                    "type": "integer"
+                }
+            },
+            "totalResults": {
+                "name": "totalResults",
+                "in": "query",
+                "schema": {
+                    "type": "boolean"
+                }
+            },
+            "q": {
+                "name": "q",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "orderBy": {
+                "name": "orderBy",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "effectiveDate": {
+                "name": "effectiveDate",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "REST-Framework-Version": {
+                "name": "REST-Framework-Version",
+                "in": "header",
+                "schema": {
+                    "type": "string",
+                    "enum": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9"
+                    ]
+                }
+            },
+            "Metadata-Context": {
+                "name": "Metadata-Context",
+                "in": "header",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "Effective-Of": {
+                "name": "Effective-Of",
+                "in": "header",
+                "schema": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

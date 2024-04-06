@@ -1,0 +1,52 @@
+<oj-vb-fragment id="page-header" bridge="[[vbBridge]]" name="page-header">
+  <template slot="actions">
+  </template>
+  <oj-vb-fragment-param name="title" value="Proceso para liberar las ordenes que tienen el hold de factura vencida. "></oj-vb-fragment-param>
+</oj-vb-fragment>
+<div class="oj-flex">
+  <div class="oj-flex-item oj-sm-12 oj-md-6 oj-lg-margin-3x"></div>
+</div>
+
+<div class="oj-flex">
+  <div class="oj-flex oj-flex-item oj-sm-12 oj-md-6">
+    <oj-select-single label-hint="Seleccione BU" data="[[$variables.finBusinessUnitsLOVListSDP]]"
+      item-text="BusinessUnitName" placeholder="Seleccione BU" on-value-item-changed="[[$listeners.selectValueItem]]"
+      class="oj-flex-item oj-sm-12 oj-md-4"></oj-select-single>
+    <div class="oj-flex-item oj-sm-12 oj-md-1"></div>
+    <div class="oj-flex-item oj-sm-12 oj-md-3">
+      <oj-button label="[[$application.translations.app.button_label]]" on-oj-action="[[$listeners.buttonAction]]"
+        class="oj-button-full-width" display="icons"
+        title="Buscar ordenes en hold de factura vencida por BU."></oj-button>
+    </div>
+  </div>
+</div>
+<div class="oj-flex">
+  <div class="oj-flex-item oj-sm-12 oj-md-6 oj-lg-margin-2x"></div>
+</div>
+<div class="oj-flex">
+  <div class="oj-flex oj-flex-item oj-sm-12 oj-md-6">
+    <oj-input-text label-hint="Email" value="{{ $application.user.email }}" id="correoNotificacion"
+      class="oj-flex-item oj-sm-12 oj-md-4"></oj-input-text>
+    <div class="oj-flex-item oj-sm-12 oj-md-1"></div>
+    <div class="oj-flex-item oj-sm-12 oj-md-3">
+      <oj-button label="Release" on-oj-action="[[$listeners.buttonAction2]]" class="oj-button-full-width"
+        display="icons" title="Realizar el release del hold para las ordenes seleccionadas."></oj-button>
+    </div>
+  </div>
+</div>
+<div class="oj-flex">
+  <div class="oj-lg-margin-2x oj-flex-item oj-sm-12 oj-md-6"></div>
+</div>
+<div class="oj-flex">
+  <oj-text-area label-hint="Ordenes Seleccionadas" class="oj-flex-item oj-sm-12 oj-md-8"
+    value="{{ $variables.ordenesSelec }}" readonly="true"></oj-text-area>
+</div>
+<div class="oj-flex oj-sm-justify-content-center">
+  <oj-table scroll-policy="loadMoreOnScroll" selection-mode.row="multiple"
+    on-selected-changed="[[$listeners.tableSelected]]" select-all-control="hidden"
+    data="[[ $variables.listaOrdenesHoldVar ]]"
+    columns='[{"headerText":"Order","field":"Order"},{"headerText":"sourceOrderNumber","field":"sourceOrderNumber"},{"headerText":"ExceptionType","field":"ExceptionType"},{"headerText":"Customer","field":"Customer"},{"headerText":"OrderType","field":"OrderType"},{"headerText":"OrderedDate","field":"OrderedDate"},{"headerText":"Total","field":"Total"},{"headerText":"Comments","field":"Comments"}]'
+    id="tablaOrdenes" class="oj-flex-item oj-sm-flex-initial" display="grid"></oj-table>
+</div>
+
+

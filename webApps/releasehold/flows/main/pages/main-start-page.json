@@ -1,0 +1,150 @@
+{
+  "title": "ReleaseHold",
+  "description": "",
+  "variables": {
+    "bandSelectBU": {
+      "type": "string"
+    },
+    "BU": {
+      "type": "string"
+    },
+    "finBusinessUnitsLOVListSDP": {
+      "type": "vb/ServiceDataProvider",
+      "defaultValue": {
+        "endpoint": "erp/getall_finBusinessUnitsLOV",
+        "keyAttributes": "BusinessUnitId",
+        "itemsPath": "items",
+        "responseType": "getallFinBusinessUnitsLOVResponse",
+        "transformsContext": {
+          "vb-textFilterAttributes": [
+            "BusinessUnitName"
+          ]
+        }
+      }
+    },
+    "listaOrdenesHoldVar": {
+      "type": "vb/ArrayDataProvider2",
+      "defaultValue": {
+        "itemType": "getOrdenesHoldType",
+        "keyAttributes": "Order",
+        "textFilterAttributes": [
+          "Order"
+        ]
+      }
+    },
+    "ordenesSelec": {
+      "type": "string"
+    },
+    "requestReleaseHold": {
+      "type": "postOUT_LIBERA_ORDENE_FACTUR_VENCID1_0LiberarOrdenesFacturaVencida"
+    }
+
+  },
+  "metadata": {},
+  "types": {
+
+    "@decorators.getallFinBusinessUnitsLOVResponse": {
+      "endpoint": "getall_finBusinessUnitsLOV",
+      "service": "erp",
+      "path": "response"
+    },
+    "@decorators.getOrdenesHoldType": {
+      "endpoint": "getCONSUL_ORDENE_HOLD_FACTUR_VENCID1_0GetOrdenesHoldUnidadNegocio",
+      "service": "oic",
+      "path": "response-_-OrdenesEnHold[0]"
+    },
+    "@decorators.postOUT_LIBERA_ORDENE_FACTUR_VENCID1_0LiberarOrdenesFacturaVencida": {
+      "endpoint": "postOUT_LIBERA_ORDENE_FACTUR_VENCID1_0LiberarOrdenesFacturaVencida",
+      "service": "oic",
+      "path": "request"
+    },
+    "getallFinBusinessUnitsLOVResponse": {
+      "items": [
+        {
+          "ActiveFlag": "boolean",
+          "BusinessUnitId": "number",
+          "BusinessUnitName": "string"
+        }
+      ]
+    },
+    "getOrdenesHoldType": {
+      "Comments": "string",
+      "Customer": "string",
+      "ExceptionType": "string",
+      "Order": "string",
+      "OrderedDate": "string",
+      "OrderType": "string",
+      "sourceOrderNumber": "string",
+      "Total": "string"
+
+    },
+    "postOUT_LIBERA_ORDENE_FACTUR_VENCID1_0LiberarOrdenesFacturaVencida": {
+      "correoNotificacion": "string",
+      "ordenes": [
+        {
+          "numeroOrden": "string",
+          "sourceOrderNumber": "string"
+        }
+      ]
+    }
+  },
+  "eventListeners": {
+    "buttonAction": {
+      "chains": [
+        {
+          "chain": "accionBuscar"
+        }
+      ]
+    },
+    "buttonAction2": {
+      "chains": [
+        {
+          "chain": "accionRelease"
+        }
+      ]
+    },
+    "selectValueItem": {
+      "chains": [
+        {
+          "chain": "SelectValueItemChangeChain",
+          "parameters": {
+            "key": "{{$event.detail.value.key}}",
+            "data": "{{$event.detail.value.data}}",
+            "metadata": "{{$event.detail.value.metadata}}"
+          }
+        }
+      ]
+    },
+    "tableSelected": {
+      "chains": [
+        {
+          "chain": "accionSeleccionar",
+          "parameters": {
+            "keys": "{{ $event.detail.value.row.values ? Array.from($event.detail.value.row.values()) : [] }}",
+            "selected": "{{ $event.detail.value }}"
+          }
+        }
+      ]
+    }
+
+  },
+  "imports": {
+    "components": {
+      "oj-button": {
+        "path": "ojs/ojbutton"
+      },
+      "oj-input-text": {
+        "path": "ojs/ojinputtext"
+      },
+      "oj-select-single": {
+        "path": "ojs/ojselectsingle"
+      },
+      "oj-table": {
+        "path": "ojs/ojtable"
+      },
+      "oj-text-area": {
+        "path": "ojs/ojinputtext"
+      }
+   }
+  }
+}

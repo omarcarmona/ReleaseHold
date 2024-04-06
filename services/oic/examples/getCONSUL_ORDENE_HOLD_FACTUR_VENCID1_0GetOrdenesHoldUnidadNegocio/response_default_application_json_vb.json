@@ -1,0 +1,824 @@
+{
+    "OrdenesEnHold": [
+        {
+            "Order": "29022",
+            "sourceOrderNumber": "TSJ-127-001781-1",
+            "OrderedDate": "2023-08-01 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "AIBONITO EXTRA",
+            "Total": "1444.56",
+            "Comments": ""
+        },
+        {
+            "Order": "29205",
+            "sourceOrderNumber": "TSJ-125-001926-1",
+            "OrderedDate": "2023-08-01 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "325.94",
+            "Comments": ""
+        },
+        {
+            "Order": "29394",
+            "sourceOrderNumber": "TSJ-123-002949-1",
+            "OrderedDate": "2023-08-02 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS LOS PRADOS INC.",
+            "Total": "1466.17",
+            "Comments": ""
+        },
+        {
+            "Order": "29516",
+            "sourceOrderNumber": "TSJ-124-002261-1",
+            "OrderedDate": "2023-08-03 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS GUAYNABO",
+            "Total": "1466.4",
+            "Comments": ""
+        },
+        {
+            "Order": "29572",
+            "sourceOrderNumber": "TSJ-121-002352-1",
+            "OrderedDate": "2023-08-03 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "1492.67",
+            "Comments": "Entregar antes de las 2pm Pago cheq 072159"
+        },
+        {
+            "Order": "30267",
+            "sourceOrderNumber": "TSJ-132-026233-1",
+            "OrderedDate": "2023-08-07 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "LA GRAN FAMILIA",
+            "Total": "46",
+            "Comments": ""
+        },
+        {
+            "Order": "30507",
+            "sourceOrderNumber": "TSJ-126-002113-1",
+            "OrderedDate": "2023-08-08 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO HUMACAO",
+            "Total": "460.6",
+            "Comments": ""
+        },
+        {
+            "Order": "30554",
+            "sourceOrderNumber": "TSJ-122-002604-1",
+            "OrderedDate": "2023-08-08 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO BORINQUEN (WILFREDO HERRERA INC.)",
+            "Total": "4004.27",
+            "Comments": ""
+        },
+        {
+            "Order": "30613",
+            "sourceOrderNumber": "TSJ-127-001806-1",
+            "OrderedDate": "2023-08-08 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO AIBONITO INC",
+            "Total": "5406.29",
+            "Comments": ""
+        },
+        {
+            "Order": "30633",
+            "sourceOrderNumber": "30633",
+            "OrderedDate": "2023-08-09 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO BORINQUEN (WILFREDO HERRERA INC.)",
+            "Total": "3954.11",
+            "Comments": ""
+        },
+        {
+            "Order": "31321",
+            "sourceOrderNumber": "TSJ-143-026633-2",
+            "OrderedDate": "2023-08-10 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO COAMO",
+            "Total": "101.5",
+            "Comments": ""
+        },
+        {
+            "Order": "31088",
+            "sourceOrderNumber": "TSJ-126-002138-1",
+            "OrderedDate": "2023-08-13 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO RIAL #2-FAJARDO",
+            "Total": "8593.92",
+            "Comments": ""
+        },
+        {
+            "Order": "31068",
+            "sourceOrderNumber": "TSJ-144-027287-1",
+            "OrderedDate": "2023-08-14 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J PICA & CIA INC",
+            "Total": "787.38",
+            "Comments": ""
+        },
+        {
+            "Order": "31091",
+            "sourceOrderNumber": "TSJ-125-001987-1",
+            "OrderedDate": "2023-08-14 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO RIAL-LOS COLOBOS",
+            "Total": "3605.23",
+            "Comments": ""
+        },
+        {
+            "Order": "31165",
+            "sourceOrderNumber": "TSJ-127-001830-1",
+            "OrderedDate": "2023-08-14 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "NAVE INC/ECONO PLAZA CAYEY",
+            "Total": "386.07",
+            "Comments": ""
+        },
+        {
+            "Order": "30999",
+            "sourceOrderNumber": "TSJ-123-003038-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "NAVE INC./ECONO PLAZA MASSO",
+            "Total": "4449.73",
+            "Comments": ""
+        },
+        {
+            "Order": "31002",
+            "sourceOrderNumber": "TSJ-133-027227-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO ARECIBO (EMPRESAS SAN JOMAR LLC)",
+            "Total": "663.61",
+            "Comments": ""
+        },
+        {
+            "Order": "31050",
+            "sourceOrderNumber": "TSJ-123-003040-2",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "NAVE INC./ECONO PLAZA MASSO",
+            "Total": "90.58",
+            "Comments": "8/1  51424. $915.70 NF 8/1. 51423. $167.45 NF 8/1. 51422. $11,304.60 G 8/1. 23445. $43.36"
+        },
+        {
+            "Order": "31058",
+            "sourceOrderNumber": "TSJ-126-002155-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO HUMACAO",
+            "Total": "276.92",
+            "Comments": ""
+        },
+        {
+            "Order": "31067",
+            "sourceOrderNumber": "TSJ-125-001999-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SUPERMERCADO FACUNDO INC",
+            "Total": "2369.36",
+            "Comments": ""
+        },
+        {
+            "Order": "31114",
+            "sourceOrderNumber": "TSJ-125-002002-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SUPERMERCADO FACUNDO INC",
+            "Total": "309.26",
+            "Comments": ""
+        },
+        {
+            "Order": "31301",
+            "sourceOrderNumber": "TSJ-121-002414-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "75.63",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "31309",
+            "sourceOrderNumber": "TSJ-121-002412-1",
+            "OrderedDate": "2023-08-15 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "260.96",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "30921",
+            "sourceOrderNumber": "TSJ-123-003046-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO PLAZA CAGUAS",
+            "Total": "299.66",
+            "Comments": ""
+        },
+        {
+            "Order": "30991",
+            "sourceOrderNumber": "TSJ-123-003045-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO PLAZA CAGUAS",
+            "Total": "3503.13",
+            "Comments": ""
+        },
+        {
+            "Order": "31843",
+            "sourceOrderNumber": "TSJ-127-001838-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO COMERIO",
+            "Total": "2443.22",
+            "Comments": ""
+        },
+        {
+            "Order": "31855",
+            "sourceOrderNumber": "TSJ-123-003049-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "294.4",
+            "Comments": ""
+        },
+        {
+            "Order": "31884",
+            "sourceOrderNumber": "TSJ-121-002426-2",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "90",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "31886",
+            "sourceOrderNumber": "TSJ-123-003050-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS LOS PRADOS INC.",
+            "Total": "112.98",
+            "Comments": ""
+        },
+        {
+            "Order": "31887",
+            "sourceOrderNumber": "TSJ-121-002427-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "2634.3",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "31911",
+            "sourceOrderNumber": "TSJ-127-001839-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO COMERIO",
+            "Total": "376.67",
+            "Comments": ""
+        },
+        {
+            "Order": "31934",
+            "sourceOrderNumber": "TSJ-121-002428-2",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "293.75",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32105",
+            "sourceOrderNumber": "TSJ-123-003051-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS LOS PRADOS INC.",
+            "Total": "1538.41",
+            "Comments": ""
+        },
+        {
+            "Order": "32195",
+            "sourceOrderNumber": "TSJ-123-003048-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "107.78",
+            "Comments": ""
+        },
+        {
+            "Order": "32225",
+            "sourceOrderNumber": "TSJ-123-003052-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J PICA & CIA INC",
+            "Total": "732.23",
+            "Comments": ""
+        },
+        {
+            "Order": "32238",
+            "sourceOrderNumber": "TSJ-143-026665-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO COAMO",
+            "Total": "2343.07",
+            "Comments": ""
+        },
+        {
+            "Order": "32290",
+            "sourceOrderNumber": "TSJ-142-027491-1",
+            "OrderedDate": "2023-08-16 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SUPERMERCADOS ECONO PONCE",
+            "Total": "6939.2",
+            "Comments": ""
+        },
+        {
+            "Order": "31839",
+            "sourceOrderNumber": "TSJ-124-002359-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS GUAYNABO",
+            "Total": "786.13",
+            "Comments": ""
+        },
+        {
+            "Order": "31850",
+            "sourceOrderNumber": "TSJ-121-002434-2",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PLAZA LOIZA CORP.",
+            "Total": "69",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "31861",
+            "sourceOrderNumber": "TSJ-132-026288-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS VEGA ALTA",
+            "Total": "197.46",
+            "Comments": ""
+        },
+        {
+            "Order": "31863",
+            "sourceOrderNumber": "TSJ-132-026290-2",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS VEGA ALTA",
+            "Total": "198.91",
+            "Comments": ""
+        },
+        {
+            "Order": "31879",
+            "sourceOrderNumber": "TSJ-127-001847-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "RIAGO INC-ECONO BARRANQUITAS",
+            "Total": "4655.78",
+            "Comments": ""
+        },
+        {
+            "Order": "31899",
+            "sourceOrderNumber": "TSJ-121-002432-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PLAZA LOIZA CORP.",
+            "Total": "419.75",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "31909",
+            "sourceOrderNumber": "TSJ-124-002360-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "207.96",
+            "Comments": ""
+        },
+        {
+            "Order": "31927",
+            "sourceOrderNumber": "TSJ-132-026289-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS VEGA ALTA",
+            "Total": "1932.08",
+            "Comments": ""
+        },
+        {
+            "Order": "31930",
+            "sourceOrderNumber": "TSJ-123-003076-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO SAN LORENZO",
+            "Total": "4123.3",
+            "Comments": ""
+        },
+        {
+            "Order": "31939",
+            "sourceOrderNumber": "TSJ-127-001848-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "RIAGO INC-ECONO BARRANQUITAS",
+            "Total": "48.96",
+            "Comments": ""
+        },
+        {
+            "Order": "31940",
+            "sourceOrderNumber": "TSJ-124-002375-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO CAMPANILLA",
+            "Total": "887.98",
+            "Comments": ""
+        },
+        {
+            "Order": "32096",
+            "sourceOrderNumber": "TSJ-127-001845-2",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "RIAGO INC-ECONO BARRANQUITAS",
+            "Total": "162",
+            "Comments": ""
+        },
+        {
+            "Order": "32193",
+            "sourceOrderNumber": "TSJ-127-001846-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "RIAGO INC-ECONO BARRANQUITAS",
+            "Total": "483.42",
+            "Comments": ""
+        },
+        {
+            "Order": "32253",
+            "sourceOrderNumber": "TSJ-142-027497-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "NAPO VELEZ GUAYANILLA",
+            "Total": "725.29",
+            "Comments": ""
+        },
+        {
+            "Order": "32298",
+            "sourceOrderNumber": "TSJ-142-027499-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PENUELAS (S/M SIEMPRE)",
+            "Total": "556.56",
+            "Comments": ""
+        },
+        {
+            "Order": "32299",
+            "sourceOrderNumber": "TSJ-142-027501-1",
+            "OrderedDate": "2023-08-17 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PLAZA PENUELAS",
+            "Total": "1906.52",
+            "Comments": ""
+        },
+        {
+            "Order": "31878",
+            "sourceOrderNumber": "TSJ-125-002021-1",
+            "OrderedDate": "2023-08-18 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "227.23",
+            "Comments": ""
+        },
+        {
+            "Order": "32192",
+            "sourceOrderNumber": "TSJ-124-002382-1",
+            "OrderedDate": "2023-08-18 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO DAKI",
+            "Total": "1245.5",
+            "Comments": ""
+        },
+        {
+            "Order": "32989",
+            "sourceOrderNumber": "TSJ-121-002464-2",
+            "OrderedDate": "2023-08-22 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "90",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32358",
+            "sourceOrderNumber": "TOTM-123-002880-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS LOS PRADOS INC.",
+            "Total": "37.95",
+            "Comments": ""
+        },
+        {
+            "Order": "32360",
+            "sourceOrderNumber": "TOTM-121-002316-2",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "170.75",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32361",
+            "sourceOrderNumber": "TOTM-121-002315-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "236.74",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32367",
+            "sourceOrderNumber": "TOTM-125-001915-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J PICA & CIA INC",
+            "Total": "683.95",
+            "Comments": ""
+        },
+        {
+            "Order": "32370",
+            "sourceOrderNumber": "TOTM-125-001912-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J F MONTALVO",
+            "Total": "539.77",
+            "Comments": ""
+        },
+        {
+            "Order": "32373",
+            "sourceOrderNumber": "TOTM-126-002078-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO RIAL #2-FAJARDO",
+            "Total": "3823.39",
+            "Comments": ""
+        },
+        {
+            "Order": "32377",
+            "sourceOrderNumber": "TOTM-123-002901-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J F MONTALVO",
+            "Total": "1191.06",
+            "Comments": ""
+        },
+        {
+            "Order": "32382",
+            "sourceOrderNumber": "TOTM-127-001767-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "S/M ECONO AGUAS BUENAS",
+            "Total": "1789.66",
+            "Comments": ""
+        },
+        {
+            "Order": "32404",
+            "sourceOrderNumber": "TOTM-127-001768-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "S/M ECONO AGUAS BUENAS",
+            "Total": "200.36",
+            "Comments": ""
+        },
+        {
+            "Order": "32421",
+            "sourceOrderNumber": "TOTM-121-002313-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "242",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32425",
+            "sourceOrderNumber": "TOTM-125-001913-2",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "J F MONTALVO",
+            "Total": "120.16",
+            "Comments": ""
+        },
+        {
+            "Order": "32456",
+            "sourceOrderNumber": "TOTM-127-001762-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "RIAGO INC-ECONO BARRANQUITAS",
+            "Total": "3099.09",
+            "Comments": ""
+        },
+        {
+            "Order": "32463",
+            "sourceOrderNumber": "TOTM-124-002231-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO CAMPANILLA",
+            "Total": "424.9",
+            "Comments": ""
+        },
+        {
+            "Order": "32465",
+            "sourceOrderNumber": "TOTM-132-026153-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS VEGA ALTA",
+            "Total": "561.29",
+            "Comments": ""
+        },
+        {
+            "Order": "32594",
+            "sourceOrderNumber": "TOTM-142-027436-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PLAZA PENUELAS",
+            "Total": "1025.35",
+            "Comments": ""
+        },
+        {
+            "Order": "32626",
+            "sourceOrderNumber": "TOTM-121-002307-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "185.62",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32648",
+            "sourceOrderNumber": "TOTM-142-027439-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PENUELAS (S/M SIEMPRE)",
+            "Total": "649.83",
+            "Comments": ""
+        },
+        {
+            "Order": "32653",
+            "sourceOrderNumber": "TOTM-142-027437-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "NAPO VELEZ GUAYANILLA",
+            "Total": "928.19",
+            "Comments": ""
+        },
+        {
+            "Order": "32674",
+            "sourceOrderNumber": "TOTM-134-039516-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "AE MANA ISABELA CORP",
+            "Total": "2365.75",
+            "Comments": ""
+        },
+        {
+            "Order": "32696",
+            "sourceOrderNumber": "TOTM-141-025360-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "LHV INC/ECONO CABO ROJO",
+            "Total": "2153.16",
+            "Comments": ""
+        },
+        {
+            "Order": "32716",
+            "sourceOrderNumber": "TOTM-121-002308-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "56.34",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32755",
+            "sourceOrderNumber": "TOTM-121-002314-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "SELECTOS PALACIOS",
+            "Total": "2205.46",
+            "Comments": "Entregar antes de las 2pm"
+        },
+        {
+            "Order": "32779",
+            "sourceOrderNumber": "TOTM-143-026579-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO COAMO",
+            "Total": "2671.16",
+            "Comments": ""
+        },
+        {
+            "Order": "32780",
+            "sourceOrderNumber": "TOTM-143-026577-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "ECONO GUAYAMA",
+            "Total": "2106.13",
+            "Comments": ""
+        },
+        {
+            "Order": "32988",
+            "sourceOrderNumber": "TSJ-122-002698-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "104.48",
+            "Comments": ""
+        },
+        {
+            "Order": "33002",
+            "sourceOrderNumber": "TSJ-121-002487-1",
+            "OrderedDate": "2023-08-24 00:08:00",
+            "ExceptionType": "CUST_INV_DUE",
+            "OrderType": "Venta Regular MSF SZ",
+            "Customer": "PUERTO RICO CVS PHARMACY LLC-B834",
+            "Total": "197.4",
+            "Comments": "Entregar antes de las 2pm"
+        }
+    ]
+}

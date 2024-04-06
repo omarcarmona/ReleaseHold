@@ -1,0 +1,17 @@
+{
+  "title": "Shell Header",
+  "eventListeners": {
+
+  },
+  "events": {},
+  "imports": {
+    "components": {
+    },
+    "css": [
+      "/resources/css/shell.css"
+    ]
+  },
+  "metadata": {},
+  "types": {},
+  "variables": {}
+}
